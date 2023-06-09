@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmitOnError": true,
+    "module": "commonjs",
+    "target": "esnext",
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true
+  },
+  "exclude": [
+    "tests",
+    "dist"
+  ]
+}
