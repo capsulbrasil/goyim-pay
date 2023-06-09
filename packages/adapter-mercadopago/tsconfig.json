@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "strict": true,
+    "declaration": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "paths": {
+      "goyim": [
+        "../core/dist"
+      ],
+      "goyim/*": [
+        "../core/dist/*"
+      ]
+    }
+  },
+  "exclude": [
+    "tests",
+    "dist"
+  ]
+}

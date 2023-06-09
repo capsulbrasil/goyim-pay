@@ -7,7 +7,7 @@ export const requestDefaults = {
   method: 'POST'
 }
 
-export const send = async (requestSource: FetchRequest) => {
+export const send = async <Request extends FetchRequest>(requestSource: Request) => {
   const request = Object.assign(requestDefaults, requestSource) as unknown as Omit<FetchRequest, 'body'> & {
     url: string
     body?: string
