@@ -14,9 +14,6 @@ export type PaymentParameters = {
   pix: never
 }
 
-/**
- * Accepted payment methods.
- */
 export type PaymentMethod = keyof PaymentParameters
 
 export type Customer = {
